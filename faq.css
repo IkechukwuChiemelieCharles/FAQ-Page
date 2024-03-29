@@ -81,7 +81,7 @@ h5 a:hover {
 }
 @media screen and (max-width: 600px) {
   .container {
-    width: 300px;
+    width: 500px;
     height: 600px;
     background-color: hsl(0, 0%, 100%);
 
@@ -106,5 +106,47 @@ h5 a:hover {
   }
   h1 span {
     margin-left: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 550px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+
+    margin: -350px 100%;
+
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
+  }
+  h1 {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 350px;
+  }
+  .bg-img {
+    width: 2000px;
+    height: 1000px;
+    margin-top: -500px;
+  }
+
+  h5 img {
+    margin: -4px 25px;
+    width: 20px;
+  }
+  h1 > span {
+    margin-left: 10px;
+  }
+  .faq {
+    margin-right: 60px;
+  }
+  .minus {
+    margin-right: 55px;
+    width: 20px;
+  }
+  .star {
+    width: 5000px;
   }
 }
