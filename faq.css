@@ -1,152 +1,45 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+body {
+  background-color: pink;
 }
-.bg .bg-img {
+.container-fluid {
   position: relative;
 }
-.bg-img {
-  width: 1900px;
-  height: 200%;
-  margin-right: 1000px;
-}
-
 .container {
-  width: 500px;
-  height: 500px;
-  background-color: hsl(0, 0%, 100%);
-
-  margin: -150px 40%;
-  border-radius: 10px;
   position: absolute;
-  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
-}
-h1 {
-  margin: 30px 30px;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 350px;
-  margin-bottom: 10px;
-}
-.star {
-  width: 30px;
-  margin-right: 20px;
-}
-h5 {
-  padding: 10px 30px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1px;
+  width: 600px;
+  height: 900px;
+  margin: -200px 400px;
+  border-radius: 10px;
+  background-color: white;
 }
 .minus {
-  margin: 0 10px;
-  width: 20px;
   margin-left: 120px;
 }
-.text {
-  margin: 1px 30px;
-  color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+.plus1 {
+  margin-left: 300px;
 }
-hr {
-  margin: 10px 30px;
-  border-color: rgba(0, 0, 0, 0.059);
-}
-.plus {
-  margin-left: 270px;
-  width: 20px;
-  padding-bottom: 0px;
-}
-.text-plus {
-  display: flex;
-  align-items: center;
-}
-
 .plus2 {
-  width: 20px;
-  margin-left: 115px;
+  margin-left: 110px;
 }
 .plus3 {
-  width: 20px;
-  margin-left: 47px;
+  margin-left: 30px;
 }
-
-h5 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+.star {
+  margin-right: 10px;
+  width: 30px;
+  margin-bottom: 5px;
 }
-h5 a:hover {
-  color: hsl(292, 90%, 52%);
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 600px) {
-  .container {
-    width: 500px;
-    height: 600px;
-    background-color: hsl(0, 0%, 100%);
-
-    margin: -150px 10%;
-    border-radius: 10px;
-    position: absolute;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
-  }
-  h1 {
-    margin: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 350px;
-  }
-  h1 img {
-    width: 20px;
-  }
-
-  h5 img {
-    margin: -4px 25px;
-    width: 20px;
-  }
-  h1 span {
-    margin-left: 25px;
-  }
+.card-body {
+  color: grey;
 }
-@media screen and (max-width: 480px) {
-  .container {
-    width: 550px;
-    height: 500px;
-    background-color: hsl(0, 0%, 100%);
-
-    margin: -350px 100%;
-
-    border-radius: 10px;
-    position: absolute;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
-  }
-  h1 {
-    margin: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 350px;
-  }
-  .bg-img {
-    width: 2000px;
-    height: 1000px;
-    margin-top: -500px;
-  }
-
-  h5 img {
-    margin: -4px 25px;
-    width: 20px;
-  }
-  h1 > span {
-    margin-left: 10px;
-  }
-  .faq {
-    margin-right: 60px;
-  }
-  .minus {
-    margin-right: 55px;
-    width: 20px;
-  }
-  .star {
-    width: 5000px;
-  }
+.card {
+  border: 0;
+  background-color: white;
+}
+.card-header {
+  background-color: white;
 }
