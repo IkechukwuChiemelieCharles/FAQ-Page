@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: hsl(275, 100%, 97%);
 }
@@ -6,23 +11,27 @@ body {
 }
 .container {
   position: absolute;
-  width: 600px;
-  height: 900px;
-  margin: -200px 400px;
+  width: 420px;
+  height: 650px;
+  margin: -200px 25px;
   border-radius: 10px;
   background-color: white;
 }
 .minus {
-  margin-left: 100px;
+  margin-left: 90px;
+  width: 20px;
 }
 .plus1 {
-  margin-left: 295px;
+  width: 20px;
+  margin-left: 210px;
 }
 .plus2 {
-  margin-left: 90px;
+  width: 20px;
+  margin-left: 83px;
 }
 .plus3 {
-  margin-left: 5px;
+  width: 20px;
+  margin-left: 30px;
 }
 .star {
   margin-right: 10px;
@@ -35,6 +44,7 @@ h1 {
 }
 .card-body {
   color: grey;
+  font-size: 10px;
 }
 .card {
   border: 0;
@@ -45,5 +55,58 @@ h1 {
 }
 b {
   color: rgb(0, 0, 0);
-  margin-left: -15px;
+  font-size: 10px;
+  margin-left: -20px;
+}
+
+@media screen and (min-width: 1028px) {
+  body {
+    background-color: hsl(275, 100%, 97%);
+  }
+  .container-fluid {
+    position: relative;
+  }
+  .container {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    margin: -200px 350px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .minus {
+    margin-left: 270px;
+  }
+  .plus1 {
+    margin-left: 390px;
+  }
+  .plus2 {
+    margin-left: 265px;
+  }
+  .plus3 {
+    margin-left: 210px;
+  }
+  .star {
+    margin-right: 10px;
+    width: 30px;
+    margin-bottom: 5px;
+  }
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .card-body {
+    color: grey;
+  }
+  .card {
+    border: 0;
+    background-color: white;
+  }
+  .card-header {
+    background-color: white;
+  }
+  b {
+    color: rgb(0, 0, 0);
+    margin-left: -15px;
+  }
 }
