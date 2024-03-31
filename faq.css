@@ -58,6 +58,16 @@ b {
   font-size: 10px;
   margin-left: -20px;
 }
+@media screen and (min-width: 670px) {
+  .container {
+    position: absolute;
+    width: 420px;
+    height: 650px;
+    margin: -200px 30%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+}
 
 @media screen and (min-width: 990px) {
   body {
