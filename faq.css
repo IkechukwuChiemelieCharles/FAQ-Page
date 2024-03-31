@@ -59,7 +59,7 @@ b {
   margin-left: -20px;
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 990px) {
   body {
     background-color: hsl(275, 100%, 97%);
   }
